@@ -9,3 +9,5 @@ El juego continúa hasta que el usuario adivine el número correcto.
 Pistas:
 Usa la función random.randint() para elegir un número aleatorio.
 Usa un bucle while para seguir pidiendo al usuario que adivine hasta que acierte.
+
+credits: elnahueeeee
