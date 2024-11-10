@@ -20,8 +20,16 @@ while True:
     if question == "s":
       number = random.randint(1, 100)
 
+    ### confirmacion ###
     else:
-      question = input("quieres intentar de nuevo? s/n ")
+      question = input("seguro? s/n ")
+
+      if question == "s":
+        quit()
+      
+      ### reintento ###
+      else:
+        number = random.randint(1, 100)
   
   ### pistas ###
   elif guess < number:
@@ -29,3 +37,4 @@ while True:
   
   elif guess > number:
     print("el numero es mas pequeño que", guess)
+
